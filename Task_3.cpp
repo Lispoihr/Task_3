@@ -1,6 +1,6 @@
 # include <iostream>
 # include <cmath>
-void main() {
+int main() {
     double start, end, step;
     std::cout << "Введите начальное значение x: ";
     std::cin >> start; // Задаем исходное значение переменной
@@ -12,5 +12,5 @@ void main() {
         double y = sin(x); // функция y = sin(x)
         std::cout << x << " | " << y << std::endl; // Выводим значения функции для каждого аргумента (x | y)
     }
-    return nullptr;
+    return 0;
 }
